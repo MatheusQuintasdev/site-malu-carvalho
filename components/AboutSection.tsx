@@ -105,7 +105,7 @@ export default function AboutSection() {
                 Conheça <span className="text-gradient">Malu Carvalho</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-                Sou Malu Carvalho, biomédica apaixonada por transformar vidas através da estética. Com pós-graduação em estética e 26 anos de dedicação, meu propósito é elevar a autoestima de cada paciente com tratamentos seguros, naturais e personalizados.
+                Sou Malu Carvalho, biomédica apaixonada por transformar vidas através da estética. Com pós-graduação em estética e muita dedicação, meu propósito é elevar a autoestima de cada paciente com tratamentos seguros, naturais e personalizados.
               </p>
             </motion.div>
 
@@ -136,7 +136,6 @@ export default function AboutSection() {
             {/* Stats */}
             <motion.div variants={itemVariants} className="grid grid-cols-3 gap-6 pt-6 border-t border-border/50">
               {[
-                { number: '26+', label: 'Anos de Experiência' },
                 { number: '1000+', label: 'Pacientes Felizes' },
                 { number: '100%', label: 'Satisfação' }
               ].map((stat, idx) => (
