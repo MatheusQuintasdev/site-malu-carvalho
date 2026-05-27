@@ -18,8 +18,8 @@ export default function CTAFooter() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <a
-              href="https://wa.me/55"
+            
+              href="https://wa.me/5514998499727"
               target="_blank"
               rel="noopener noreferrer"
               className="px-10 py-4 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-lg hover:shadow-lg transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
@@ -72,7 +72,7 @@ export default function CTAFooter() {
                   <MapPin size={18} className="text-secondary mt-0.5 flex-shrink-0" />
                   <span>Botucatu - SP, Brasil</span>
                 </div>
-                <a
+                
                   href="https://instagram.com/maluc.estetica"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -87,8 +87,8 @@ export default function CTAFooter() {
             {/* CTA */}
             <div className="space-y-4">
               <h4 className="font-semibold text-secondary">Conecte-se</h4>
-              <a
-                href="https://wa.me/55"
+              
+                href="https://wa.me/5514998499727"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full px-4 py-3 bg-secondary text-foreground font-semibold rounded-lg hover:bg-secondary/90 transition-all flex items-center justify-center gap-2"
@@ -110,8 +110,8 @@ export default function CTAFooter() {
       </footer>
 
       {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/55"
+      
+        href="https://wa.me/5514998499727"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-40 p-4 rounded-full bg-gradient-to-br from-secondary to-primary text-white shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all animate-bounce"

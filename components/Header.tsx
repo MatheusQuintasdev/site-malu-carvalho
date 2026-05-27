@@ -87,7 +87,7 @@ export default function Header() {
             transition={{ delay: 0.4, duration: 0.5 }}
           >
             <motion.a
-              href="https://wa.me/5514998205555"
+              href="https://wa.me/5514998499727"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2.5 bg-gradient-to-r from-primary to-accent text-white text-sm font-semibold rounded-lg hover:shadow-lg transition-shadow"
@@ -131,7 +131,7 @@ export default function Header() {
               </motion.button>
             ))}
             <motion.a
-              href="https://wa.me/5514998205555"
+              href="https://wa.me/5514998499727"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2.5 bg-gradient-to-r from-primary to-accent text-white text-sm font-semibold rounded-lg hover:shadow-lg transition-shadow text-center mt-2"
