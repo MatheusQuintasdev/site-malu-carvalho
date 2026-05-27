@@ -102,14 +102,16 @@ export default function HeroSection() {
 
             {/* CTAs */}
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 pt-6">
-              <motion.button
-                onClick={() => scrollToSection('depoimentos')}
-                className="px-8 py-3.5 bg-gradient-to-r from-primary to-accent text-white font-semibold rounded-lg hover:shadow-xl transition-all"
+              <motion.a
+                href="https://wa.me/5514998499727"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3.5 bg-gradient-to-r from-primary to-accent text-white font-semibold rounded-lg hover:shadow-xl transition-all text-center"
                 whileHover={{ scale: 1.05, boxShadow: '0 20px 40px rgba(82, 41, 41, 0.4)' }}
                 whileTap={{ scale: 0.95 }}
               >
                 Agendar Avaliação
-              </motion.button>
+              </motion.a>
               <motion.button
                 onClick={() => scrollToSection('resultados')}
                 className="px-8 py-3.5 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-all flex items-center justify-center gap-2"
