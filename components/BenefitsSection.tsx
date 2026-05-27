@@ -129,7 +129,7 @@ export default function BenefitsSection() {
             Agende sua avaliação gratuita e descubra como podemos realçar sua melhor versão
           </p>
           <motion.a
-            href="https://wa.me/5514998205555"
+            href="https://wa.me/5514998499727"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex px-8 py-3 bg-gradient-to-r from-primary to-accent text-white font-semibold rounded-lg hover:shadow-lg transition-shadow"
